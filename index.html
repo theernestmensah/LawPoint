@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>LawPoint LLP | Blackpole Legal Counsel</title>
+  <title>LawPoint LLP | Blackpool Legal Counsel</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
@@ -364,8 +364,7 @@
       letter-spacing: 0.12em;
     }
 
-    .practice-card h3,
-    .person h3 {
+    .practice-card h3 {
       color: var(--navy);
       font-family: "Libre Baskerville", Georgia, serif;
       font-size: 1.32rem;
@@ -374,7 +373,6 @@
     }
 
     .practice-card p,
-    .person p,
     .matter p {
       color: var(--steel);
       font-size: 0.95rem;
@@ -482,50 +480,6 @@
       font-size: 1rem;
       line-height: 1.35;
       margin-bottom: 12px;
-    }
-
-    .team-grid {
-      display: grid;
-      gap: 1px;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    .person {
-      background: var(--white);
-      border: 1px solid var(--line);
-      padding: 22px;
-      transition: border 180ms ease, box-shadow 180ms ease, transform 180ms ease;
-    }
-
-    .person:hover {
-      border-color: rgba(181, 138, 66, 0.55);
-      box-shadow: 0 22px 55px rgba(16, 24, 32, 0.1);
-      transform: translateY(-5px);
-    }
-
-    .portrait {
-      aspect-ratio: 4 / 5;
-      background: var(--mist);
-      margin-bottom: 22px;
-      overflow: hidden;
-    }
-
-    .portrait img {
-      height: 100%;
-      object-fit: cover;
-      width: 100%;
-    }
-
-    .person h3 {
-      margin: 0 0 8px;
-    }
-
-    .person small {
-      color: var(--gold-dark);
-      display: block;
-      font-weight: 800;
-      margin-top: 14px;
-      text-transform: uppercase;
     }
 
     .contact-wrap {
@@ -636,7 +590,6 @@
     body.reveal-ready .practice-card,
     body.reveal-ready .profile-grid > *,
     body.reveal-ready .matter,
-    body.reveal-ready .person,
     body.reveal-ready .contact-panel {
       opacity: 0;
       transform: translateY(22px);
@@ -647,7 +600,6 @@
     body.reveal-ready .practice-card.is-visible,
     body.reveal-ready .profile-grid > *.is-visible,
     body.reveal-ready .matter.is-visible,
-    body.reveal-ready .person.is-visible,
     body.reveal-ready .contact-panel.is-visible {
       opacity: 1;
       transform: translateY(0);
@@ -709,8 +661,7 @@
       }
 
       .practice-grid,
-      .matters,
-      .team-grid {
+      .matters {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -757,7 +708,6 @@
       .hero-panel,
       .practice-grid,
       .matters,
-      .team-grid,
       .credentials {
         grid-template-columns: 1fr;
       }
@@ -788,14 +738,13 @@
       <nav class="navbar" aria-label="Primary navigation">
         <a class="brand" href="#home" aria-label="LawPoint home">
           <span class="brand-name">LawPoint LLP</span>
-          <span class="brand-line">Blackpole | Worcester | UK-wide</span>
+          <span class="brand-line">Blackpool | Principal-led | UK-wide</span>
         </a>
         <ul class="nav-links">
           <li><a href="#practice">Expertise</a></li>
           <li><a href="#firm">Firm</a></li>
           <li><a href="#matters">Track Record</a></li>
-          <li><a href="#people">People</a></li>
-          <li><a class="btn btn-outline" href="#contact">Speak to a Partner</a></li>
+          <li><a class="btn btn-outline" href="#contact">Speak to the Principal</a></li>
         </ul>
       </nav>
     </div>
@@ -806,8 +755,8 @@
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Premium legal counsel for decisive moments</p>
-          <h1><span>Blackpole counsel</span><span>for complex</span><span>commercial stakes.</span></h1>
-          <p class="hero-text">LawPoint LLP advises founders, boards, investors and private clients from Blackpole, Worcester on disputes, transactions and regulatory pressure where precision, discretion and pace matter.</p>
+          <h1><span>Blackpool counsel</span><span>for complex</span><span>commercial stakes.</span></h1>
+          <p class="hero-text">LawPoint LLP advises founders, boards, investors and private clients from Blackpool on disputes, transactions and regulatory pressure where precision, discretion and pace matter.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contact">Book a confidential consultation</a>
             <a class="btn btn-outline" href="#matters">View representative work</a>
@@ -818,12 +767,12 @@
               Advised across contested transactions and strategic disputes.
             </div>
             <div>
-              <strong>41</strong>
-              Ranked lawyers, King's Counsel relationships and sector specialists.
+              <strong>1:1</strong>
+              Direct principal oversight from Priscilla Shaviva Baaba Owiah, Esq.
             </div>
             <div>
               <strong>24/7</strong>
-              Partner-led response for urgent injunctions, investigations and crises.
+              Principal-led response for urgent injunctions, investigations and crises.
             </div>
           </div>
         </div>
@@ -878,13 +827,13 @@
       <div class="container profile-grid">
         <div>
           <p class="eyebrow">The firm</p>
-          <h2>Partner-led advice without the theatre.</h2>
-          <p>Our clients come to LawPoint when the matter is commercially important, politically sensitive or too complex for generic legal advice. We combine City discipline with a boutique operating model, so decisions are made quickly and the strategy remains personal.</p>
-          <p>Every mandate is led by a senior lawyer, supported by carefully selected counsel, analysts and sector specialists. The result is clear: fewer hand-offs, sharper judgement and a calm route through legal pressure.</p>
+          <h2>Principal-led advice without the theatre.</h2>
+          <p>LawPoint is owned by Priscilla Shaviva Baaba Owiah, Esq., with a Blackpool base and a UK-wide outlook. Clients come to the firm when a matter is commercially important, sensitive or too complex for generic legal advice.</p>
+          <p>Every mandate is handled with senior judgement, clear communication and carefully selected specialist support where needed. The result is clear: fewer hand-offs, sharper advice and a calm route through legal pressure.</p>
           <div class="credentials">
             <div class="credential">
               <strong>92%</strong>
-              <span>Matters led directly by equity partners.</span>
+              <span>Matters led with principal-level oversight.</span>
             </div>
             <div class="credential">
               <strong>18</strong>
@@ -931,63 +880,17 @@
       </div>
     </section>
 
-    <section class="section" id="people">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">People</p>
-            <h2>Senior lawyers clients call before the problem becomes public.</h2>
-          </div>
-          <p class="section-copy">A compact bench of specialists means each client works with the people accountable for the advice.</p>
-        </div>
-        <div class="team-grid">
-          <article class="person">
-            <div class="portrait">
-              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80" alt="Portrait of Eleanor Cross">
-            </div>
-            <h3>Eleanor Cross</h3>
-            <p>Managing Partner. Corporate governance, M&A and shareholder strategy.</p>
-            <small>Solicitor Advocate</small>
-          </article>
-          <article class="person">
-            <div class="portrait">
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80" alt="Portrait of Marcus Vale">
-            </div>
-            <h3>Marcus Vale KC</h3>
-            <p>Disputes partner. Commercial litigation, fraud claims and injunctive relief.</p>
-            <small>King's Counsel</small>
-          </article>
-          <article class="person">
-            <div class="portrait">
-              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80" alt="Portrait of Priya Shah">
-            </div>
-            <h3>Priya Shah</h3>
-            <p>Private wealth partner. Trusts, estates and sensitive family office matters.</p>
-            <small>STEP Member</small>
-          </article>
-          <article class="person">
-            <div class="portrait">
-              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80" alt="Portrait of Daniel Reed">
-            </div>
-            <h3>Daniel Reed</h3>
-            <p>Regulatory partner. Investigations, financial services and data incidents.</p>
-            <small>Former FCA Counsel</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <section class="contact-wrap" id="contact">
       <div class="container">
         <div class="contact-panel">
           <div>
             <p class="eyebrow">Confidential enquiry</p>
-            <h2>Speak directly with a partner.</h2>
-            <p>For urgent matters, injunctions or active negotiations, call the Blackpole office. For new instructions, send a short confidential summary and we will respond the same business day.</p>
+            <h2>Speak directly with the principal.</h2>
+            <p>For urgent matters, injunctions or active negotiations, call the Blackpool office. For new instructions, send a short confidential summary and we will respond the same business day.</p>
             <ul class="contact-list">
-              <li><strong>Office</strong> Blackpole, Worcester, Worcestershire</li>
+              <li><strong>Office</strong> Blackpool, Lancashire</li>
               <li><strong>Phone</strong> +44 (0)20 7946 0388</li>
-              <li><strong>Email</strong> partners@lawpoint.co.uk</li>
+              <li><strong>Email</strong> enquiries@lawpoint.co.uk</li>
               <li><strong>Hours</strong> Mon-Fri, 08:00-20:00 GMT. Urgent response available.</li>
             </ul>
           </div>
@@ -1012,14 +915,14 @@
 
   <footer>
     <div class="container footer-grid">
-      <p><strong>LawPoint LLP</strong> | Solicitors of England and Wales</p>
+      <p><strong>LawPoint LLP</strong> | Owned by Priscilla Shaviva Baaba Owiah, Esq.</p>
       <p>Privacy | Complaints | SRA Transparency | © 2026 LawPoint LLP</p>
     </div>
   </footer>
 
   <script>
     (function () {
-      const revealTargets = document.querySelectorAll(".section-head, .practice-card, .profile-grid > *, .matter, .person, .contact-panel");
+      const revealTargets = document.querySelectorAll(".section-head, .practice-card, .profile-grid > *, .matter, .contact-panel");
       document.body.classList.add("reveal-ready");
 
       if ("IntersectionObserver" in window) {
@@ -1062,7 +965,7 @@
           return;
         }
 
-        feedback.textContent = "Thank you, " + name + ". A LawPoint partner will respond shortly.";
+        feedback.textContent = "Thank you, " + name + ". LawPoint will respond shortly.";
         form.reset();
       });
     })();
